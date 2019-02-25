@@ -5,8 +5,8 @@ class CSVReader:
 
     fileName = ''
 
-    def __init__(self,fileName):
-        self.fileName = fileName
+    def setFileName(self,newFileName):
+        self.fileName = newFileName
 
     def readCsv(self):
         datas = []
